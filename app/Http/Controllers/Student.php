@@ -10,7 +10,7 @@ class Student extends Controller
   public function index() {
 
     $students = StudentModel::all();
-    
+
     // $students = [
     //   [
     //     'nome' => 'Sara',

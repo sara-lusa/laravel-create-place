@@ -1,8 +1,9 @@
 <h2>Studenti</h2>
-<ul>
-  <?php foreach ($students as $student) { ?>
-    <li>Nome: <?php echo $student->nome ?></li>
-    <li>Cognome: <?php echo $student->cognome ?></li>
-    <li>Media: <?php echo $student->media ?></li><br>
-  <?php } ?>
-</ul>
+
+  @foreach ($students as $student)
+    <ul>
+      <li>Nome: {{$student->nome}}</li>
+      <li>Cognome: {{$student->cognome}}</li>
+      <li>Media: {{$student->media}}</li><br>
+    </ul>
+  @endforeach
