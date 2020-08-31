@@ -11,17 +11,17 @@ class Student extends Controller
       [
         'nome' => 'Sara',
         'cognome' => 'Lusa',
-        'Media' => '8'
+        'media' => '8'
       ],
       [
         'nome' => 'Anna',
         'cognome' => 'Rossi',
-        'Media' => '8'
+        'media' => '8'
       ],
       [
         'nome' => 'Viola',
         'cognome' => 'Berti',
-        'Media' => '8'
+        'media' => '8'
       ],
     ];
     // dd(['data' => $students]);
