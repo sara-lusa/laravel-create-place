@@ -1,10 +1,14 @@
 <h2>Studenti</h2>
 
-<div>
-  <h3>Nome studente: {{$student->nome}} {{$student->cognome}}</h3>
+<div id="student-list"></div>
+
+<script src="{{asset('js/app.js')}}"></script>
+
+<script id="student-template" type="text/x-handlebars-template">
+  <h3>Nome studente: @{{nome}} @{{cognome}}</h3>
   <ul>
-    <li>Classe: {{$student->nome_classe}}</li>
-    <li>Voto Massimo: {{$student->voto_max}}</li>
-    <li>Media: {{$student->media}}</li><br>
+    <li>Classe: @{{nome_classe}}</li>
+    <li>Voto Massimo: @{{voto_max}}</li>
+    <li>Media: @{{media}}</li><br>
   </ul>
-</div>
+</script>

@@ -15,6 +15,6 @@ class StudentController extends Controller
 
   public function api()
   {
-    dd('ciao');
+    return view('api');
   }
 }
