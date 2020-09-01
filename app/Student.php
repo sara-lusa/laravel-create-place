@@ -10,6 +10,7 @@ class Student extends Model
       'nome',
       'cognome',
       'media',
-      
+      'nome_classe',
+      'voto_max'
     ];
 }
