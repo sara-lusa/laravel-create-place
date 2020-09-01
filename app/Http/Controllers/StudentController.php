@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\StudentModel;
+use App\Student;
 
-class Student extends Controller
+class StudentController extends Controller
 {
   public function index() {
 
-    $students = StudentModel::all();
+    $students = Student::all();
 
     // $students = [
     //   [
