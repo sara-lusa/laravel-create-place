@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/students', 'StudentController@index');
-
 Route::get('/students-api', 'StudentController@api');
+
+Route::get('/teachers', 'TeacherController@index');
