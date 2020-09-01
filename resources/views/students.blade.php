@@ -1,4 +1,7 @@
-<h2>Studenti</h2>
+@extends('layouts.app')
+
+@section('content')
+  <h2>Studenti</h2>
 
   @foreach ($students as $student)
     <div>
@@ -10,3 +13,4 @@
       </ul>
     </div>
   @endforeach
+@endsection

@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <h2>Studenti</h2>
 
 <div id="student-list"></div>
@@ -12,3 +15,4 @@
     <li>Media: @{{media}}</li><br>
   </ul>
 </script>
+@endsection
